@@ -16,7 +16,7 @@
   </project>
   <project remote="freescale" revision="11ac45d22963a3f047a85c96009c36cb6e156d0a" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra" />
   <project remote="freescale" revision="cd6275042cdd2d87490521f6cbeb65972ed37a66" name="meta-fsl-demos" path="sources/meta-fsl-demos" />
-  <project remote="speedpat" revision="7dcea3b9cae4f9573edc4b153c30327dcd94bc1b" name="meta-browser" path="sources/meta-browser" />
+  <project remote="speedpat" revision="8db869a0e167ee5147e7856869d04a5f45a72276" name="meta-browser" path="sources/meta-browser" />
   <project remote="speedpat" revision="9251c17d5b6ee1f5394852a0c4735da86b84e4b5" name="meta-test" path="sources/meta-test" >
      <copyfile dest="chromium-setup.sh" src="chromium-setup.sh" />
   </project>
