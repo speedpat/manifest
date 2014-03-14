@@ -2,25 +2,9 @@
   <manifest>
   <default sync-j="2" />
   <remote fetch="git://git.yoctoproject.org" name="yocto" />
-  <remote fetch="git://github.com/Freescale" name="freescale" />
   <remote fetch="git://git.openembedded.org" name="oe" />
-  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
-  <remote fetch="git://github.com/speedpat" name="speedpat"/>
 
   <project remote="yocto" revision="75bed4086eb83f1d24c31392f3dd54aa5c3679b1" name="poky" path="sources/poky" />
-  <project remote="yocto" revision="5b3b6618426ad06e4fb6a3a77c4a53dfb47f0556" name="meta-fsl-arm" path="sources/meta-fsl-arm" />
   <project remote="oe" revision="513e7ca20ddd0a5c3b649bf292a67c3e0473d3a8" name="meta-openembedded" path="sources/meta-openembedded" />
-  <project remote="freescale" revision="dora" name="fsl-community-bsp-base" path="sources/base">
-     <copyfile dest="README" src="README" />
-     <copyfile dest="setup-environment" src="setup-environment" />
-  </project>
-  <project remote="freescale" revision="11ac45d22963a3f047a85c96009c36cb6e156d0a" name="meta-fsl-arm-extra" path="sources/meta-fsl-arm-extra" />
-  <project remote="freescale" revision="cd6275042cdd2d87490521f6cbeb65972ed37a66" name="meta-fsl-demos" path="sources/meta-fsl-demos" />
-  <project remote="speedpat" revision="8db869a0e167ee5147e7856869d04a5f45a72276" name="meta-browser" path="sources/meta-browser" />
-  <project remote="speedpat" revision="9251c17d5b6ee1f5394852a0c4735da86b84e4b5" name="meta-test" path="sources/meta-test" >
-     <copyfile dest="chromium-setup.sh" src="chromium-setup.sh" />
-  </project>
-  <project remote="fsl-release" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="dora_3.10.17-1.0.0_beta">
-     <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
-  </project>
+  <project remote="oe" revision="d343e3021c8c85b0defd635ae68b71ba60648e1d" name="meta-ti" path="sources/meta-ti" />
   </manifest>
